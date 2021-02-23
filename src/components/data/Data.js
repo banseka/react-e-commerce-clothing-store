@@ -1,0 +1,245 @@
+export const Data = [
+  {
+    id: 3,
+    price: 22.0,
+    title: "mens jacket",
+    image: "dresses/2.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 4,
+    price: 22.0,
+    title: "mens jacket",
+    image: "dresses/1.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 5,
+    price: 25.0,
+    title: "mens jacket",
+    image: "dresses/3.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 6,
+    price: 32.0,
+    title: "mens jacket",
+    image: "dresses/4.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 7,
+    price: 17.0,
+    title: "mens jacket",
+    image: "dresses/5.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 8,
+    price: 24000.0,
+    title: "mens jacket",
+    image: "dresses/6.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 9,
+    price: "$32.00",
+    title: "mens jacket",
+    image: "dresses/7.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 10,
+    price: 22.0,
+    title: "mens jacket",
+    image: "dresses/8.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 11,
+    price: 24280.0,
+    title: "mens jacket",
+    image: "dresses/9.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 12,
+    price: 30.0,
+    title: "mens jacket",
+    image: "dresses/10.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 13,
+    price: 180.0,
+    title: "mens jacket",
+    image: "dresses/11.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 14,
+    price: 32.0,
+    title: "mens jacket",
+    image: "dresses/12.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 15,
+    price: 15.0,
+    title: "mens jacket",
+    image: "dresses/13.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 16,
+    price: 15.0,
+    title: "mens jacket",
+    image: "dresses/14.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 17,
+    price: 15.0,
+    title: "mens jacket",
+    image: "dresses/15.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 18,
+    price: 15.0,
+    title: "mens jacket",
+    image: "dresses/16.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 19,
+    price: 15.0,
+    title: "mens jacket",
+    image: "dresses/17.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 20,
+    price: 15.0,
+    title: "mens jacket",
+    image: "dresses/18.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 21,
+    price: 15.0,
+    title: "mens jacket",
+    image: "dresses/19.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 22,
+    price: 15.0,
+    title: "mens jacket",
+    image: "dresses/20.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 23,
+    price: 15.0,
+    title: "mens jacket",
+    image: "dresses/21.jpg",
+    info:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.",
+    incart: false,
+    count: 0,
+    total: 0,
+  },
+];
+
+export const detailedProduct = {
+  id: 0,
+  price: 15.0,
+  title: "mens jacket",
+  image: "dresses/1.jpg",
+  info:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula molestie neque, vel ultrices orci porta vel. In pulvinar sollicitudin sollicitudin. Sed iaculis nisl et enim commodo semper non nec quam. In tincidunt justo a sem auctor iaculis. Mauris pulvinar dapibus neque eu facilisis. Morbi vel varius sapien. Pellentesque turpis tellus, aliquet ac quam in, volutpat feugiat enim. Pellentesque laoreet est tellus, sed lacinia nisi viverra a.w",
+  incart: false,
+  count: 0,
+  total: 0,
+};

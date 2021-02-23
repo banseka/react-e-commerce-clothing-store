@@ -13,7 +13,7 @@ export default class Product extends Component {
           <ProductConsumer>
             {(value) => (
               <div
-                className='img-container p-5'
+                className='img-container p-0'
                 onClick={() => {
                   value.handleDetail(id);
                 }}
@@ -39,7 +39,7 @@ export default class Product extends Component {
             )}
           </ProductConsumer>
           <div className='card-footer d-flex justify-content-between'>
-            <p className='align-self-center mb-0'>{title}</p>
+            <p className='align-self-center mb-0 text-uppercase '>{title}</p>
             <h5 className='text-green font-italic mb-0'>
               <span>$</span>
               {price}

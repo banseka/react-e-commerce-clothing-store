@@ -1,21 +1,21 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import Title from "./Title";
 import {ProductConsumer} from "./Context";
-import SevitaSection from "../SevitaSection";
-//import SevitaProductSection from "./sevita/SevitaProdctSection";
+import Product from "./Product"
+
 
 export default class ProductList extends Component {
   render() {
     return (
-      <div className='container'>
+      <div className='py-5'>
         <Title name='our' title='products' />
-        <div className='row'>
-          <div className='col-10 col-lg-3 col-md-6 py-3'>
+        <div className='container'>
+          <div className='row'>
             <ProductConsumer>
               {(value) =>
-                value.productData.map((product) => (
-                  <SevitaSection key={product.id} products={product} />
+                value.products.map((product) => (
+                  <Product key={product.id} product={product} />
                 ))
               }
             </ProductConsumer>

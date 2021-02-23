@@ -8,12 +8,9 @@ import ProductList from "./components/ProductList";
 import Detail from "./components/Detail";
 import Cart from "./components/Cart/Cart";
 import Model from "./components/Model";
-import { Provider } from "react-redux";
-import store from "./Store";
 
 function App() {
-  return (
-    <Provider store={store}>
+  return( 
       <div className='App container-fluid'>
         <Navbar />
         <Switch>
@@ -24,7 +21,6 @@ function App() {
         </Switch>
         <Model />
       </div>
-    </Provider>
   );
 }
 

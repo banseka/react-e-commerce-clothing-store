@@ -13,7 +13,7 @@ export default class Detail extends Component {
             <div className='container'>
               <div className='row'>
                 <div className='col-10 max-auto text-slanted my-5 text-center text-green'>
-                  <h1>{title}</h1>
+                  <h1 className='text-uppercase'>{title}</h1>
                 </div>
               </div>
               <div className='row'>
@@ -21,7 +21,7 @@ export default class Detail extends Component {
                   <img src={image} className='img-fluid' alt='product' />
                 </div>
                 <div className='col-10 col-md-6 mx-auto my-3 text-capitalize'>
-                  <h2>strain: {title}</h2>
+                  <h2>ITEM: {title}</h2>
                   <h4 className='text-green'>
                     <strong>
                       price: <span>$</span>

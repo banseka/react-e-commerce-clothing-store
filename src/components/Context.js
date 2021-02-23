@@ -1,15 +1,12 @@
 import React, { Component } from "react";
-import { productsData } from "./ProductsData";
-
-import { SevitaData, detailedProduct } from "./sevita/SevitaData";
-//import { HybrideData } from "./hybrideProducts/HybrideData";
+import { Data, detailedProduct } from "./data/Data";
 
 const ProductContext = React.createContext();
-//const productsData = [SevitaData, HybrideData];
 
 class ProductProvider extends Component {
+  //global state values
   state = {
-    productData: productsData,
+    productData: Data,
     productDetail: detailedProduct,
     products: [],
     cart: [],
@@ -24,22 +21,15 @@ class ProductProvider extends Component {
   }
   setProducts = () => {
     let tempProducts = [];
-    //let tempSingleProdcut = [];
-
-    productsData.forEach((item) => {
-      const singleproduct = [...item.data];
-      console.log(singleproduct);
+    this.state.productData.forEach((item) => {
+      let singleproduct = item;
       tempProducts = [...tempProducts, singleproduct];
-      console.log(tempProducts);
     });
     this.setState(() => {
       return { products: tempProducts };
     });
   };
-  getProduct = (id) =>{
-    let product = this.productData.find(item => item.id === id)
-    return product
-  }
+
   getItem = (id) => {
     let product = this.state.products.find((item) => item.id === id);
     return product;
@@ -144,10 +134,14 @@ class ProductProvider extends Component {
     );
   };
   clearCart = () => {
+    let tempProduct = this.state.products.map(
+      (product) => (product.incart = false)
+    );
     this.setState(
       () => {
         return {
           cart: [],
+          products: tempProduct,
         };
       },
       () => {
@@ -157,11 +151,13 @@ class ProductProvider extends Component {
     );
   };
   addTotals = () => {
-    let subTotal = 0;
-    this.state.cart.map((item) => (subTotal += item.Total));
-    let tempTax = subTotal.NaN * 0.1;
+    let minTotal = this.state.cart.map((item) => item.total);
+    let subTotal = minTotal.reduce((acc, cur) => {
+      return acc + cur;
+    }, 0);
+    let tempTax = subTotal * 0.1;
     let tax = parseFloat(tempTax.toFixed(2));
-    const total = subTotal.NaN + tax;
+    const total = subTotal + tax;
     this.setState({
       cartSubTotal: subTotal,
       cartTax: tax,

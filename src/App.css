@@ -1,42 +1,40 @@
 :root {
-  --primaryColor: #a7ff83;
-  --mainColor: #17b978;
-  --color: #3ef082;
-  --simpleColor: #10a735;
+  --primaryColor: #3f3b3b;
+  --mainColor: #1f4d3a;
+  --color: #e7b3b3;
+  --simpleColor: #3f3b3b;
   --othercolors: #0e9577;
 
-
   --textColor: #fcf9f9;
-  --background: #fbfae1;
+  --background: #3f3f34;
 }
 
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Oswald', sans-serif !important;
-  background-color: var(--background);
+  font-family: "Oswald", sans-serif !important;
+  background: var(--background);
 }
 
 .text-title {
   text-transform: uppercase;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   letter-spacing: 0.3rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-
+  width: 100%;
 }
 
 .text-green {
-  color: var(--simpleColor)
+  color: var(--simpleColor);
 }
 
 .tex-ligt {
-  color: var(--textColor)
+  color: var(--textColor);
 }
 
 .btn-black {
@@ -49,7 +47,7 @@ body {
 
 .btn-black:hover {
   background: rgba(0, 0, 0, 0.808) !important;
-  color: whitesmoke !important
+  color: whitesmoke !important;
 }
 
 .cart-icon {

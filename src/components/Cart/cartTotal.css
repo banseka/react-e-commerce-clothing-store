@@ -1,0 +1,19 @@
+.cartTotal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10em;
+  text-transform: uppercase;
+}
+.cartTotal > button {
+  width: 100% !important;
+}
+.totals > h5 {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.totals > h5 > strong {
+  margin-left: 2em;
+}
