@@ -17,7 +17,7 @@
 
 body {
   font-family: "Oswald", sans-serif !important;
-  background: var(--background);
+  background: white;
 }
 
 .text-title {
